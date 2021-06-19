@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    color:#fff;
+    background-color: #181818;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+p {
+    font-size: 14px;
+}
+h1 {
+    font-size: 18px;
+}
+h2, #channel-name, .comment-author, .preview-title {
+    font-size: 14px;
+}
+#video-views {
+    color: #aaa;
+    font-size: 16px;
+}
+li, #channel-subs, .button, .comment-created, .preview-author, .preview-stats {
+    color: #aaa;
+    font-size: 13px;
+}
+li{
+    display:inline;
+    list-style-type: none;
+}
+svg, path {
+    background-color:transparent !important;
+    cursor: pointer;
+    width: inherit;
+    height: inherit;
+}
+.button, #icon, .comment-replies {
+    cursor: pointer;
+}
+.avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    float: left;
+    background-color:cadetblue;
+    cursor: pointer;
+}
+.stat-button {
+    height: 24px;
+    width: 24px;
+    fill:#aaa;
+    margin-right: 1em;
+    background-color: transparent;
+    float: left;
+}
+.stat-text {
+    float: left;
+    margin-right: 1em;
+    color: #aaa;
+    font-size: 15px;
+}
+.stat-text-small {
+    float: left;
+    margin-right: 1em;
+    color: #aaa;
+    font-size: 12px;
+}
+#settings-icon, #apps-icon, #mic-icon, #burger-icon {
+    height: 24px;
+    width: 24px;
+    fill:white;
+    background-color: transparent;
+}
+#settings-icon {
+    margin-right: 1.5em;
+}
+#mic-icon {
+    margin-left: 1em;
+}
+#burger-icon {
+    margin-left: 1.5em;
+}
+#apps-icon {
+    margin-right: 1em;
+}
+#youtube-logo-text {
+    height: 20px;
+    width: 90px;
+    fill: white;
+}
+#youtube-logo-icon {
+    height: 20px;
+    width: 28.6px;
+    margin-left: 1.5em;
+    margin-right: -1.7em;
+    z-index: 1;
+}
+nav {
+    width: 100vw;
+    height: 56px;
+    background-color:#212121;
+}
+main {
+    width: 68vw;
+    float: left;
+    height:max-content;
+}
+#main-media {
+    margin: 2vw;
+    width: 64vw;
+    display: flex;
+    flex-direction: column;
+}
+#main-video {
+    width: inherit;
+    aspect-ratio: 16 / 9;
+    max-height: max-content;
+}
+.divider{
+    width: inherit;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-top: 1em;
+}
+.main-block {
+    margin-top: 1em;
+}
+#watching, #description {
+    float: left;
+}
+#video-interactions {
+    float: right;
+}
+#description {
+    margin-left: 1em;
+}
+
+#recommended {
+    width: 30vw;
+    float: right;
+}
+.recommended-video {
+    margin-top: 1em;
+}
+#nav-start {
+    width: 25vw;
+    float: left;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    background-color:inherit;
+}
+#nav-middle {
+    float: left;
+    width: 50vw;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:inherit;
+}
+#search {
+    width: inherit;
+    height: 2.5em;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+#search-button {
+    width: 5em;
+    height: 2.5em;
+    padding: 0;
+    margin: 0;
+    background-color: hsla(0,0%,100%, 0.08);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+#search-icon {
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    fill:rgba(255,255,255,0.4);
+}
+#nav-end {
+    width: 25vw;
+    float: right;
+    height: inherit;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: inherit;
+}
+.comment, .comment-author, .comment-created {
+    float: left;
+}
+.comment {
+    margin-left: 1em;
+}
+.comment-created {
+    margin-left: 1em;
+}
+.comment-replies {
+    color: #3ea6ff;
+    cursor: pointer;
+    font-size: 17px;
+}
+.media-preview  {
+    float: left;
+}
+.preview-info {
+    float: left;
+    margin-left: 1em;
+}
+img {
+    height: 94px;
+    width: 168px;
+    object-fit: contain;
+}
